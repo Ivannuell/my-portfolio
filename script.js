@@ -38,7 +38,6 @@ form.addEventListener("submit", (e) => {
   if (name && email && message) {
     formMessage.style.color = "#00ffea";
     formMessage.textContent = "Message received! I will get back to you ASAP.";
-    form.reset();
   } else {
     formMessage.style.color = "#ff00c8";
     formMessage.textContent = "Please fill out all fields.";
