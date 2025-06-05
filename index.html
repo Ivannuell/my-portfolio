@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio - Ivannuell Jon G. Herrera</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Ivannuell Jon G. Herrera</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm <span class="neon">Ivann</span></h1>
+        <p class="subtitle">
+          IT Specialist <span class="separator">|</span> Web Dev
+          <span class="separator">|</span> Gamer
+        </p>
+        <a href="#projects" class="btn">Explore My Arsenal</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        Enthusiastic and technically skilled professional with experience in IT
+        tasks such as graphic design, document processing, and hardware/software
+        maintenance. Proven project management abilities and a strong commitment
+        to delivering excellent service. Seeking to contribute and grow within a
+        computer-literate organization
+      </p>
+      <a
+        href="https://drive.google.com/file/d/1De2q6yPdgJG-aA5m9AczNRVIfd7uihiV/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="resume"
+      >
+        Open PDF Document
+      </a>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>Administrative & Organizational</h3>
+          <p class="hidden">
+            Experienced in document management, data entry, and filing with
+            strong attention to detail. Skilled in basic scheduling and calendar
+            management, coupled with effective time-management abilities.
+            Demonstrates excellent organizational skills to prioritize tasks
+            efficiently and ensure accuracy, supporting smooth operations and
+            timely completion of responsibilities.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Communication</h3>
+          <p class="hidden">
+            Possess strong verbal and written communication skills essential for
+            effectively conveying technical information to both technical and
+            non-technical stakeholders. Experienced in delivering exceptional
+            customer service by troubleshooting IT-related issues, providing
+            clear guidance, and ensuring user satisfaction. Adept at translating
+            complex concepts into understandable language, fostering positive
+            client relationships, and supporting seamless communication within
+            IT teams and end-users.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Technical Proficiencies</h3>
+          <p class="hidden">
+            Proficient in Microsoft Office Suite (Word, Excel, PowerPoint,
+            Visio) and creative software including Adobe Photoshop, Illustrator,
+            and Canva, enabling effective document creation and graphic design.
+            Experienced with multiple operating systems—Windows, macOS, and
+            Linux—and skilled in hardware and software maintenance and
+            troubleshooting to ensure optimal system performance and minimize
+            downtime in IT environments.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>70+ wpm Typing speed</h3>
+          <p class="hidden">
+            Having a typing speed of 70 words per minute (WPM) is highly
+            beneficial in IT roles, as it enables efficient coding,
+            documentation, and communication. This speed enhances productivity
+            by allowing quick data entry, faster troubleshooting, and seamless
+            collaboration, making it an essential skill for meeting deadlines
+            and maintaining workflow efficiency in technology environments.
+          </p>
+        </div>
+        <div class="skill">
+          <h3>Web Development</h3>
+          <p class="hidden">
+            I am an enthusiastic web design beginner, actively developing skills
+            in HTML, CSS, and basic JavaScript to create responsive and
+            user-friendly websites. Familiar with design tools like Adobe
+            Photoshop and Figma, I focus on clean layouts and accessibility.
+            Committed to continuous learning, I seek opportunities to apply and
+            enhance my abilities through practical projects and staying current
+            with industry best practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>TypeRow</h3>
+          <p>
+            Type and test your typing speed. A sleek typing test app using basic
+            web tools.
+          </p>
+          <a
+            href="https://ivannuell.github.io/TypeRow/"
+            target="_blank"
+            class="btn-small"
+            >Launch</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>MemeBook</h3>
+          <p>A basic web app that displays IT related memes and jokes.</p>
+          <a
+            href="https://ivannuell.github.io/Meme-Generator/"
+            target="_blank"
+            class="btn-small"
+            >Launch</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>TypeTest</h3>
+          <p>
+            A quick typing test for typist who want minimalist design and just
+            want to type and chill.
+          </p>
+          <a
+            href="https://ivannuell.github.io/TypeTest/"
+            target="_blank"
+            class="btn-small"
+            >Launch</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <form
+        id="contact-form"
+        action="https://usebasin.com/f/8d2d7fc7b573"
+        method="POST"
+      >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        
+        <button type="submit" class="btn">Send Message</button>
+        <p id="form-message"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Ivannuell Jon G. Herrera. Powered by code & passion.</p>
+    </footer>
+  </body>
+</html>
