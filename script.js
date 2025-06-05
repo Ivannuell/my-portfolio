@@ -30,7 +30,6 @@ const form = document.getElementById("contact-form");
 const formMessage = document.getElementById("form-message");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
 
   const name = form.name.value.trim();
   const email = form.email.value.trim();
